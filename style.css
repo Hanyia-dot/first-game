@@ -75,7 +75,6 @@ button {
     padding: 5px 20px;
     border: 2px solid #34495e;
     text-transform: uppercase;
-    background-color: #1abc9c;
     font-weight: bold;
     margin: 10px auto;
     transition: .5s;
@@ -83,8 +82,21 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.start {
+    background-color: #1abc9c;
+}
+
+.start:hover {
     background-color: #34495e;
+    color: #fff;
+}
+
+.reset {
+    background-color: #f86252;
+}
+
+.reset:hover {
+    background-color: #610e06;
     color: #fff;
 }
 
